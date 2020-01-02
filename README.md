@@ -10,11 +10,11 @@ If not, please have a look in [Wikipedia](https://en.wikipedia.org/wiki/Q-learni
 By running this notebook you should understand a little bit better, what is going on **during** the Q learning process in the **Q table**, which is a **state action matrix** which learns to predict the "right actions" better and better.
 
 ### Overview
-As in many educational notebooks, we are using one of the [OpenAI environments](http://gym.openai.com/): It's the [Mountain car environment](http://gym.openai.com/envs/MountainCar-v0/). This notebook shows, how Q learning teaches a car (with a weak engine) to drive up a mountain. 
+As in many educational notebooks, we are using one of the [OpenAI environments](http://gym.openai.com/): It's the [Mountain car environment](http://gym.openai.com/envs/MountainCar-v0/). This notebook shows, how Q learning teaches a car (with a weak engine) to drive up a mountain by getting the "right momentum". 
 
 ![mountain_car_environment.PNG](mountain_car_environment.PNG)
 
-In order to best visualize what's going on, I have choosen this environment because it has a 2-dimensional observation space, which can be shown as a 2-dimensional table. 
+In order to best visualize what's going on, I have choosen this environment because it has a 2-dimensional observation space, which can be shown as a 2-dimensional table. The actions - e.g. speed up to the right - are shown as text (e.g. "R>") in the table: 
 
 ![q_table.PNG](q_table.PNG)
 
